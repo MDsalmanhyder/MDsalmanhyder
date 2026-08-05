@@ -1,3 +1,10 @@
+<div align="center">
+
+<img src="./ascii.svg" width="460" alt="Mohammed Salman Hyder"/>
+
+<img src="./stats.svg" width="620" alt="Contributions in the last year"/>
+
+</div>
 #  About Me:
 Computer Science undergraduate (2027) with hands-on experience in Java, Python, React, Flask, Machine Learning,<br>and AI applications. Developed full-stack and AI-driven projects including chatbots, anomaly detection systems, and<br>image classification models. Strong understanding of DSA, DBMS, OOP, and System Design. Seeking Software<br>Engineering Internship opportunities to contribute to scalable software solutions<br>
 
