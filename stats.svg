@@ -20,10 +20,6 @@
   <text x="30" y="75" class="label">contributions</text>
 
   <!-- Small Stats (Right) -->
-  <text x="590" y="38" class="val-small">95</text>
-  <text x="590" y="52" class="label-small">active days</text>
-  <text x="590" y="80" class="val-small">125</text>
-  <text x="590" y="94" class="label-small">best week</text>
 
   <!-- Line Chart Graph -->
   <path class="line" d="M 30 135 L 75 135 L 90 132 L 115 133 L 135 125 L 155 132 L 180 128 L 205 134 L 225 126 L 250 135 L 270 128 L 290 90 L 315 125 L 340 135 L 365 134 L 390 122 L 415 135 L 445 126 L 470 135 L 495 122 L 515 135 L 535 129 L 560 122 L 590 135" />
