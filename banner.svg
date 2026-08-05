@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="120" viewBox="0 0 620 120" fill="none">
+  <style>
+    .title { fill: #24292f; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 24px; font-weight: 700; letter-spacing: 2px; }
+    .subtitle { fill: #57606a; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 13px; letter-spacing: 1px; }
+    .border { stroke: #d0d7de; stroke-width: 1; stroke-dasharray: 4 4; }
+    .cursor { fill: #0969da; }
+    @media (prefers-color-scheme: dark) {
+      .title { fill: #f0f6fc; }
+      .subtitle { fill: #8b949e; }
+      .border { stroke: #30363d; }
+      .cursor { fill: #58a6ff; }
+    }
+  </style>
+  <rect x="1" y="1" width="618" height="118" rx="8" class="border" fill="none"/>
+  <text x="30" y="50" class="title">MOHAMMED SALMAN HYDER</text>
+  <rect x="390" y="32" width="12" height="22" class="cursor">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <text x="30" y="80" class="subtitle">CS Undergraduate &amp; Full-Stack / AI Developer</text>
+</svg>
