@@ -1,98 +1,91 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="726" height="675" viewBox="0 0 726 675" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,&apos;Liberation Mono&apos;,monospace">
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="540" viewBox="0 0 850 540" fill="none">
   <style>
-    .a { fill: #6e7681; font-size: 12.9px; }
-    @media (prefers-color-scheme: dark) {
-      .a { fill: #c9d1d9; }
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&amp;display=swap');
+    
+    .bg { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; rx: 12px; }
+    .header-bar { fill: #161b22; rx: 12px; }
+    .dot-red { fill: #ff5f56; }
+    .dot-yellow { fill: #ffbd2e; }
+    .dot-green { fill: #27c93f; }
+    .title-text { fill: #8b949e; font-family: 'Fira Code', monospace; font-size: 13px; font-weight: 500; }
+    
+    .ascii-art { font-family: 'Fira Code', 'Courier New', monospace; font-size: 9.5px; font-weight: 700; white-space: pre; }
+    .asc-grad1 { fill: #58a6ff; }
+    .asc-grad2 { fill: #bc8cff; }
+    
+    .txt-base { font-family: 'Fira Code', monospace; font-size: 13px; fill: #c9d1d9; }
+    .txt-bold { font-weight: 600; }
+    .txt-blue { fill: #58a6ff; font-weight: 600; }
+    .txt-purple { fill: #bc8cff; font-weight: 600; }
+    .txt-green { fill: #3fb950; font-weight: 600; }
+    .txt-orange { fill: #ffa657; font-weight: 600; }
+    .txt-yellow { fill: #d29922; font-weight: 600; }
+    .txt-cyan { fill: #39c5bb; font-weight: 600; }
+    .txt-muted { fill: #8b949e; }
+    .txt-white { fill: #f0f6fc; font-weight: 600; }
+    
+    .box-bg { fill: #161b22; stroke: #30363d; stroke-width: 1; rx: 8px; }
+    .box-highlight { fill: #161b22; stroke: #388bfd; stroke-width: 1.5; rx: 8px; }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
     }
+    .cursor { fill: #58a6ff; animation: pulse 1s infinite; }
   </style>
 
-<!-- Clip paths for animated typewriter reveal -->
-  <clipPath id="c0"><rect x="14" y="3" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.00s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c1"><rect x="14" y="18" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.09s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c2"><rect x="14" y="33" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.18s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c3"><rect x="14" y="48" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.27s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c4"><rect x="14" y="63" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.36s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c5"><rect x="14" y="78" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.45s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c6"><rect x="14" y="93" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.54s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c7"><rect x="14" y="108" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.63s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c8"><rect x="14" y="123" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.72s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c9"><rect x="14" y="138" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.81s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c10"><rect x="14" y="153" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.90s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c11"><rect x="14" y="168" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="0.99s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c12"><rect x="14" y="183" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.08s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c13"><rect x="14" y="198" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.17s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c14"><rect x="14" y="213" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.26s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c15"><rect x="14" y="228" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.35s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c16"><rect x="14" y="243" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.44s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c17"><rect x="14" y="258" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.53s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c18"><rect x="14" y="273" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.62s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c19"><rect x="14" y="288" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.71s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c20"><rect x="14" y="303" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.80s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c21"><rect x="14" y="318" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.89s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c22"><rect x="14" y="333" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="1.98s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c23"><rect x="14" y="348" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.07s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c24"><rect x="14" y="363" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.16s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c25"><rect x="14" y="378" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.25s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c26"><rect x="14" y="393" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.34s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c27"><rect x="14" y="408" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.43s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c28"><rect x="14" y="423" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.52s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c29"><rect x="14" y="438" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.61s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c30"><rect x="14" y="453" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.70s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c31"><rect x="14" y="468" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.79s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c32"><rect x="14" y="483" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.88s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c33"><rect x="14" y="498" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="2.97s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c34"><rect x="14" y="513" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.06s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c35"><rect x="14" y="528" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.15s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c36"><rect x="14" y="543" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.24s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c37"><rect x="14" y="558" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.33s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c38"><rect x="14" y="573" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.42s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c39"><rect x="14" y="588" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.51s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c40"><rect x="14" y="603" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.60s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c41"><rect x="14" y="618" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.69s" dur="0.08s" fill="freeze"/></rect></clipPath>
-  <clipPath id="c42"><rect x="14" y="633" height="15" width="0"><animate attributeName="width" from="0" to="726" begin="3.78s" dur="0.08s" fill="freeze"/></rect></clipPath>
+  <!-- Terminal Window Background -->
+  <rect x="5" y="5" width="840" height="530" class="bg" />
+  
+  <!-- Header Bar -->
+  <path d="M 5,17 A 12,12 0 0,1 17,5 L 833,5 A 12,12 0 0,1 845,17 L 845,42 L 5,42 Z" class="header-bar" />
+  <circle cx="25" cy="23" r="6" class="dot-red" />
+  <circle cx="45" cy="23" r="6" class="dot-yellow" />
+  <circle cx="65" cy="23" r="6" class="dot-green" />
+  <text x="425" y="27" text-anchor="middle" class="title-text">salman@dev-portfolio:~ (zsh)</text>
+  
+  <g transform="translate(25, 60)">
+    <!-- ASCII Art Header: SALMAN HYDER -->
+    <g class="ascii-art">
+      <text x="0" y="10" class="asc-grad1"> ██████╗  █████╗ ██╗     ███╗   ███╗ █████╗ ███╗   ██╗   ██╗  ██╗██╗   ██╗██████╗  ███████╗██████╗ </text>
+      <text x="0" y="21" class="asc-grad1">██╔════╝ ██╔══██╗██║     ████╗ ████║██╔══██╗████╗  ██║   ██║  ██║╚██╗ ██╔╝██╔══██╗ ██╔════╝██╔══██╗</text>
+      <text x="0" y="32" class="asc-grad1">███████╗ ███████║██║     ██╔████╔██║███████║██╔██╗ ██║   ███████║ ╚████╔╝ ██║  ██║ █████╗  ██████╔╝</text>
+      <text x="0" y="43" class="asc-grad2">╚════██║ ██╔══██║██║     ██║╚██╔╝██║██╔══██║██║╚██╗██║   ██╔══██║  ╚██╔╝  ██║  ██║ ██╔══╝  ██╔══██╗</text>
+      <text x="0" y="54" class="asc-grad2">███████║ ██║  ██║███████╗██║ ╚═╝ ██║██║  ██║██║ ╚████║   ██║  ██║   ██║   ██████╔╝ ███████╗██║  ██║</text>
+      <text x="0" y="65" class="asc-grad2">╚══════╝ ╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝  ╚═╝   ╚═╝   ╚═════╝  ╚══════╝╚═╝  ╚═╝</text>
+    </g>
 
-<!-- ASCII Rows -->
-  <g clip-path="url(#c0)"><text xml:space="preserve" x="14" y="14" class="a">````````:::---++=++=++========+++*cccccccccccs##scccc**c*++*c++=***+=*+-==--------:::::```</text></g>
-  <g clip-path="url(#c1)"><text xml:space="preserve" x="14" y="29" class="a">`````:::------====+***++****ccs*s##%%%%%%%@@%%%%%%%##ssssssccc*++==++**===---------::::```</text></g>
-  <g clip-path="url(#c2)"><text xml:space="preserve" x="14" y="44" class="a">`````:::-----===+**cc#ssssss##%%%@@@@##c**+=*s#%##%%@@@@@%%#sssc**++===+++==-----:::::````</text></g>
-  <g clip-path="url(#c3)"><text xml:space="preserve" x="14" y="59" class="a">````::::---==++=+cc#######%%%%@@%c=`.               .:+cs%@%###sscc*++++==++=-=+-::::::```</text></g>
-  <g clip-path="url(#c4)"><text xml:space="preserve" x="14" y="74" class="a">````---======++*ccs##%@%%%%%%%#+.                         :*s@%###sccc+=++++=-----::::-```</text></g>
-  <g clip-path="url(#c5)"><text xml:space="preserve" x="14" y="89" class="a">````-::-===++*ccs##%%%%%%@@@@c`                              =#@#s#cccc*+=++===---::::::``</text></g>
-  <g clip-path="url(#c6)"><text xml:space="preserve" x="14" y="104" class="a">::::::--===++**c####%%@%@%c+:                                 c@@%%#scc*+++++==--:::::::``</text></g>
-  <g clip-path="url(#c7)"><text xml:space="preserve" x="14" y="119" class="a">``:::---==+=*ccc####%%%%#:                                     `+#@##scc*++++*+=-::::`:```</text></g>
-  <g clip-path="url(#c8)"><text xml:space="preserve" x="14" y="134" class="a">```::--=++==ccss###%%%%s.                                         =#%#c*+=+=+c++-:::::````</text></g>
-  <g clip-path="url(#c9)"><text xml:space="preserve" x="14" y="149" class="a">``:::=+++++ccc###%%%%%@+                                           `sscc++++==+=:::::::```</text></g>
-  <g clip-path="url(#c10)"><text xml:space="preserve" x="14" y="164" class="a">`:---+++=*ccccs##%%%%@+                                             +%#ss+=+*=+=:::::::```</text></g>
-  <g clip-path="url(#c11)"><text xml:space="preserve" x="14" y="179" class="a">:-=-===+=*ccccs##%%%%+                                             :*###s+*++++=-::::`````</text></g>
-  <g clip-path="url(#c12)"><text xml:space="preserve" x="14" y="194" class="a">::---+++=*cccs#%%%%%%s                ........   ..               `%@s#s*cc+=++==-:::`````</text></g>
-  <g clip-path="url(#c13)"><text xml:space="preserve" x="14" y="209" class="a">::---=++=*cccs#%%%%%%@-               ...   .......               -%%####cc+==+==--:::````</text></g>
-  <g clip-path="url(#c14)"><text xml:space="preserve" x="14" y="224" class="a">:::---=+*cc*###%%%%%%%@*             ...............              +%%#s#scc++++=-::::::```</text></g>
-  <g clip-path="url(#c15)"><text xml:space="preserve" x="14" y="239" class="a">:::-=+=+cc*c##%%%%%%%@%%+                 .....                  `%%@%sccccc*=+=--:::::```</text></g>
-  <g clip-path="url(#c16)"><text xml:space="preserve" x="14" y="254" class="a">::--++++ccs###%%%%%%%%@%@=                 ...                   =@######sccc**==::-:::```</text></g>
-  <g clip-path="url(#c17)"><text xml:space="preserve" x="14" y="269" class="a">::==++=+ccs###%%%%%%%%@%%=                                       `##s#####sccc=+=:::::::::</text></g>
-  <g clip-path="url(#c18)"><text xml:space="preserve" x="14" y="284" class="a">::-=++++ccs###%%%%%%%@@%@`                                       .######sssccc*++-:::::::`</text></g>
-  <g clip-path="url(#c19)"><text xml:space="preserve" x="14" y="299" class="a">::-+++=+ccc###%%%%%%%@@%@-                  ..       ...         =@%%###sccccc*++=--:::```</text></g>
-  <g clip-path="url(#c20)"><text xml:space="preserve" x="14" y="314" class="a">:--==+++cccs###@%%%%%@@%%s                  ...    ......       `%%%%%###ssccc+===--:`````</text></g>
-  <g clip-path="url(#c21)"><text xml:space="preserve" x="14" y="329" class="a">:=++=+=+cc**###%%%%%%%@@%%*         ...     ..     .......      #@%%%%#s#sccsc++=--:::````</text></g>
-  <g clip-path="url(#c22)"><text xml:space="preserve" x="14" y="344" class="a">-===++=+cc**##s#%%%%%%@@%%@=         ..             .....      :@%%%%########c**++-::`````</text></g>
-  <g clip-path="url(#c23)"><text xml:space="preserve" x="14" y="359" class="a">:--=+++++*ccs###%%%%%%%@@@%%.                               ...*%%%%%@%##ss#scc*-=-::::```</text></g>
-  <g clip-path="url(#c24)"><text xml:space="preserve" x="14" y="374" class="a">:--+++++=*ccs##s%@%%%%%%%@%@c-::                           `%%@@%%%%%%%%#ccc****+--=::````</text></g>
-  <g clip-path="url(#c25)"><text xml:space="preserve" x="14" y="389" class="a">---+++++=*cccs#s#%%%%%%%%%%%@@@@:                          s@@%%@%%%%@###ssss+=+*---:`````</text></g>
-  <g clip-path="url(#c26)"><text xml:space="preserve" x="14" y="404" class="a">---=++=+ccccccs##%%%%%%%%%%%%%%%+                         .%%%@@@%%%%%%%#sccsc===--:``````</text></g>
-  <g clip-path="url(#c27)"><text xml:space="preserve" x="14" y="419" class="a">---=++++*cccccs##%%%%%%%%%%%@@%%*                         :@%@@@@%%%%####ssc++*=---::`````</text></g>
-  <g clip-path="url(#c28)"><text xml:space="preserve" x="14" y="434" class="a">:--+++++=*cccccs#%%%%%%%%%%%%@%@s                         .s@%@%%%%%%@###cs*=++---::::````</text></g>
-  <g clip-path="url(#c29)"><text xml:space="preserve" x="14" y="449" class="a">:---=+++=*cccccc###%%%%%%@%%%%@#.                           c@%%%%%%%@###cs*++=--=-::`````</text></g>
-  <g clip-path="url(#c30)"><text xml:space="preserve" x="14" y="464" class="a">:----==+++sccccc#s#%%%%%%%%%@@s:                           .:*@@%%%%%##sc****+---=-```````</text></g>
-  <g clip-path="url(#c31)"><text xml:space="preserve" x="14" y="479" class="a">:-----=+++*+cccc###%%%%%@@@@%c`::                          =-.=s%@@@@##ss*==++----:````.``</text></g>
-  <g clip-path="url(#c32)"><text xml:space="preserve" x="14" y="494" class="a">:::----=++==ccc*####%@@%#*=-`..`s.     ..    .     ..     .#-...`-+*ss##ss+=====:::````.``</text></g>
-  <g clip-path="url(#c33)"><text xml:space="preserve" x="14" y="509" class="a">``:---=+==+=*cc*c##ssc+-:::`..``c#`     ......... ...     c%+:`..`----==+*+++=--::````````</text></g>
-  <g clip-path="url(#c34)"><text xml:space="preserve" x="14" y="524" class="a">``:----===+=*cccc*===-::```..`:-c@#`     ...........     *@%**=``.``-*=*+=---::::`````````</text></g>
-  <g clip-path="url(#c35)"><text xml:space="preserve" x="14" y="539" class="a">````:--=+++=*+---::-`.````..``-+s@@@=    ..........     *@@@#s*=+```.:-:--=:`::::`````````</text></g>
-  <g clip-path="url(#c36)"><text xml:space="preserve" x="14" y="554" class="a">````:-=--::`.....``...```..`-:*#s*:`-+`    .....      .+*-=c###sc:```.```.`--:`````````...</text></g>
-  <g clip-path="url(#c37)"><text xml:space="preserve" x="14" y="569" class="a">```::``.........``...``.``.-==c-...`.:+:-.        .=*c+`    `=s@%*`:`````..`::`.......``..</text></g>
-  <g clip-path="url(#c38)"><text xml:space="preserve" x="14" y="584" class="a">````........````...````.``:-*==-+*cc*+cc+*-      .#@s=:+*ssc+--+sc-=````````.`::```.....::</text></g>
-  <g clip-path="url(#c39)"><text xml:space="preserve" x="14" y="599" class="a">`..`*`..``````````````.``:-+*+cssccsccs%%%%*:   :s#c-*#@@@@@%@#sc+=+:``````:::::````:--:%+</text></g>
-  <g clip-path="url(#c40)"><text xml:space="preserve" x="14" y="614" class="a">...`#c:::`:--::`````````::-==++++cs#c***#@%@%+`c@@%%%@@%%#%ccc*++=++--:````::-:`.:--=*c#@*</text></g>
-  <g clip-path="url(#c41)"><text xml:space="preserve" x="14" y="629" class="a">...-s@s*:=----:--::```:-:::-=*=++=*c+*#c**+s+s@@%%%@@%##scc*+++=++++----:```::-::==*s*%@%s</text></g>
-  <g clip-path="url(#c42)"><text xml:space="preserve" x="14" y="644" class="a">.:=:s%@s`:+-----:::::::::-:-====++==ccscc*:.c%#%%%%s##c****+=++++++=--==-:::::-=*+`s%s%%%c</text></g>
+    <!-- Subtitle Prompt -->
+    <text x="5" y="98" class="txt-base">
+      <tspan class="txt-green">salman@github</tspan><tspan class="txt-muted">:</tspan><tspan class="txt-blue">~</tspan><tspan class="txt-muted">$</tspan> cat features.json <tspan class="cursor">█</tspan>
+    </text>
+
+    <!-- Left Box: Profile Summary -->
+    <rect x="5" y="115" width="385" height="215" class="box-highlight" />
+    <text x="20" y="142" class="txt-base txt-blue">┌── 👤 PROFILE SUMMARY ──────────────────┐</text>
+    <text x="20" y="169" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-white">Education :</tspan> B.Tech CS (Grad 2027)</text>
+    <text x="20" y="194" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-white">Focus     :</tspan> Full-Stack &amp; AI Engineering</text>
+    <text x="20" y="219" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-white">Goal      :</tspan> Software Eng. Internship</text>
+    <text x="20" y="244" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-white">Core CS   :</tspan> DSA • DBMS • OOP • Sys Design</text>
+    <text x="20" y="269" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-white">Status    :</tspan> <tspan class="txt-green">● Open for Opportunities</tspan></text>
+    <text x="20" y="294" class="txt-base txt-blue">└────────────────────────────────────────┘</text>
+
+    <!-- Right Box: Technical Skills -->
+    <rect x="405" y="115" width="385" height="215" class="box-bg" />
+    <text x="420" y="142" class="txt-base txt-purple">┌── ⚡ TECHNICAL SKILLS ──────────────────┐</text>
+    <text x="420" y="169" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-purple">Languages :</tspan> Java • Python • C++ • C# • C</text>
+    <text x="420" y="194" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-blue">Web Dev   :</tspan> React • Flask • JavaScript</text>
+    <text x="420" y="219" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-green">AI &amp; ML   :</tspan> ML Models • Classification</text>
+    <text x="420" y="244" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-yellow">Tools     :</tspan> Git • GitHub • VS Code • Linux</text>
+    <text x="420" y="269" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-bold txt-cyan">Specialty :</tspan> Intelligent Full-Stack Apps</text>
+    <text x="420" y="294" class="txt-base txt-purple">└────────────────────────────────────────┘</text>
+
+    <!-- Bottom Box: Highlighted Features & Projects -->
+    <rect x="5" y="345" width="785" height="120" class="box-bg" />
+    <text x="20" y="370" class="txt-base txt-green">┌── 🚀 KEY PROJECTS &amp; HIGHLIGHTS ──────────────────────────────────────────────┐</text>
+    <text x="20" y="395" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-orange">🤖 AI Chatbots</tspan><tspan class="txt-muted">        :: Conversational Agents with Context Awareness</tspan></text>
+    <text x="20" y="418" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-cyan">🔍 Anomaly Detection</tspan><tspan class="txt-muted">  :: Real-Time Data Monitoring &amp; Alerting System</tspan></text>
+    <text x="20" y="441" class="txt-base"><tspan class="txt-muted">│ </tspan><tspan class="txt-purple">🖼️ Image Classifier</tspan><tspan class="txt-muted">   :: Deep Learning Models for Visual Recognition</tspan></text>
+    <text x="20" y="455" class="txt-base txt-green">└──────────────────────────────────────────────────────────────────────────────┘</text>
+  </g>
 </svg>
