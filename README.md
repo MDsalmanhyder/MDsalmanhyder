@@ -1,12 +1,3 @@
-<div align="center">
-
-<img src="./banner.svg" width="620" alt="Mohammed Salman Hyder"/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=MDsalmanhyder&amp;show_icons=true&amp;theme=transparent&amp;hide_border=true&amp;title_color=58a6ff&amp;text_color=8b949e&amp;icon_color=58a6ff" 
-
-[linkedin](https://linkedin.com/in/Mohammed) &nbsp;·&nbsp; [instagram](https://instagram.com/md_salman_hyder) &nbsp;·&nbsp; [email](mailto:salmanhydermd@gmail.com)
-
-</div>
 #  About Me:
 Computer Science undergraduate (2027) with hands-on experience in Java, Python, React, Flask, Machine Learning,<br>and AI applications. Developed full-stack and AI-driven projects including chatbots, anomaly detection systems, and<br>image classification models. Strong understanding of DSA, DBMS, OOP, and System Design. Seeking Software<br>Engineering Internship opportunities to contribute to scalable software solutions<br>
 
