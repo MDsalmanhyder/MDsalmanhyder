@@ -2,7 +2,7 @@
 
 <img src="./banner.svg" width="620" alt="Mohammed Salman Hyder"/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=MDsalmanhyder&amp;show_icons=true&amp;theme=transparent&amp;hide_border=true&amp;title_color=58a6ff&amp;text_color=8b949e&amp;icon_color=58a6ff" width="410" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api?username=MDsalmanhyder&amp;show_icons=true&amp;theme=transparent&amp;hide_border=true&amp;title_color=58a6ff&amp;text_color=8b949e&amp;icon_color=58a6ff" 
 
 [linkedin](https://linkedin.com/in/Mohammed) &nbsp;·&nbsp; [instagram](https://instagram.com/md_salman_hyder) &nbsp;·&nbsp; [email](mailto:salmanhydermd@gmail.com)
 
